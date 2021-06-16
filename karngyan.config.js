@@ -2,9 +2,9 @@
 
 export default {
   name: 'gyan prakash karn',
-  domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
+  domain: 'klaudioz.eth', // add without https:// , used in meta tags and share urls
   image: '/images/bigheadkarngyan.png',
-  email: 'mail@karngyan.com',
+  email: 'klaudioz@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
     id: ''
@@ -15,16 +15,16 @@ export default {
     enabled: true
   },
   social: {
-    github: 'karngyan',
-    linkedin: 'karngyan',
+    github: 'klaudioz',
+    linkedin: 'canalesclaudio',
     facebook: 'karnsometimes',
-    twitter: 'gyankarn',
-    instagram: 'karngyan.dev',
+    twitter: 'klaudioz',
+    instagram: 'klaud10z',
     codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
-    enabled: true,
-    url: 'https://www.buymeacoffee.com/karngyan'
+    enabled: false,
+    url: 'https://www.buymeacoffee.com/klaudioz'
   },
   projects: {
     enabled: true,
@@ -34,7 +34,7 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
+    pdfUrl: '/RESUME_KLAUDIOZ.pdf' // add files in static folder
   },
   uses: {
     enabled: true,
