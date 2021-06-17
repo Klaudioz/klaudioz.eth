@@ -17,9 +17,7 @@ export default {
   social: {
     github: 'klaudioz',
     linkedin: 'canalesclaudio',
-    facebook: 'karnsometimes',
     twitter: 'klaudioz',
-    instagram: 'klaud10z',
     codestats: 'klaudioz' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
