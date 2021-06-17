@@ -14,7 +14,7 @@ author:
 ---
 
 This is a short but very interesting project. I’ve worked intensively for 3 weeks on it and it’s giving me a side income very fast, due to the value of the coin is about $1.000 right now even when it was listed for the first time on an exchange just a few days ago. It’s a very new coin and it looks promising. Maybe something like BTC 7-8 years ago.
-
+<!--more-->
 This project is getting a lot of traction, maybe because of its creator: Bram Cohen known as BitTorrent protocol creator (P2P). Another good reason is that it's using new technology to generate the coins, called [Proof of Space](https://www.chia.net/faq/), which is using hard drive space instead of brute force calculations so it’s using a lot of less energy compared to the rest of the coins like BTC or ETH. You can check this [website](https://chiapower.org/) for more details.
 
 You can check the source code of chia-blockchain in its [GitHub](https://github.com/Chia-Network/chia-blockchain) repository. The coin has a very active community on [Keybase](https://keybase.io/team/chia_network.public). Also you can interact in side-communities like: [Reddit](https://www.reddit.com/r/chia/) or [ChiaForum](https://chiaforum.com/).
@@ -29,8 +29,8 @@ The second stage is the **farming**, where can be done in a separated a very low
 
 So, these are pictures of my rig. One picture is from the day and another one at the night. At night is easier to check if one USB disk is turned off.
 
-![](My-chia-farming-rig/chia-day.jpg)
-![](My-chia-farming-rig/chia-night.jpg)
+![](/blog/My-chia-farming-rig/chia-day.jpg)
+![](/blog/My-chia-farming-rig/chia-night.jpg)
 
 In this system, I have a lot of 8TB USB disks which is not optimal on space, heat, and electricity but I did it because the prices of SATA disk went up a lot, so it was the best solution I found to have a big farm.
 

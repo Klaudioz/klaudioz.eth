@@ -19,7 +19,7 @@ export default {
     transform: translateY(-5%);
     animationTimingFunction: cubic-bezier(0.4, 0, 1, 1);
   }
-  50% {
+  5% {
     transform: translateY(0);
     animationTimingFunction: cubic-bezier(0, 0, 0.2, 1);
   }
