@@ -41,11 +41,31 @@
 </template>
 
 <script>
-export default {
+import CreatorPreview from 'vue-creator-preview';
 
+export default {
+  components: {
+    CreatorPreview
+  },
+  data() {
+    return {
+      avatar: 'https://cdn.karngyan.com/karn.jpg',
+      name: 'Karn',
+      mode: 'dark',
+      description: 'Software Engineer who tinkers with side projects, every now n then.',
+      content: `Hey, I am Karn 👋<br/> I built this template for procrastinating devs to set up their portfolio + blogs<br/><br/>
+Click on the link to visit the github repo to fork 👇🏾`,
+    }
+  }
 }
 </script>
 
 <style scoped>
+>>> .CreatorPreview {
+  @apply bg-gray-900 shadow-lg !important;
+}
 
+>>> .CreatorPreview--Avatar {
+  @apply h-20 w-20 !important;
+}
 </style>
