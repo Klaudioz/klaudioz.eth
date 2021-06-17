@@ -92,6 +92,7 @@ The code is yours, edit whatever you feel like. Don't forget to star the reposit
 
 This project uses nuxt content, you can read about it [here](https://content.nuxtjs.org/)
 
+I have set [fleek](https://fleek.co/) to 
 You can also set up [forestry](https://forestry.io) to never open code and use a cool editor. I'll add instructions to use that later.
 
 ## Other Deployment Options

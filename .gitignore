@@ -94,3 +94,5 @@ static/sw.*
 .awspublish-karngyan.com
 
 .env
+
+nohup.out

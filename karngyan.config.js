@@ -1,7 +1,7 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {
-  name: 'gyan prakash karn',
+  name: 'Claudio Canales',
   domain: 'klaudioz.eth', // add without https:// , used in meta tags and share urls
   image: '/images/bigheadkarngyan.png',
   email: 'klaudioz@gmail.com',
@@ -20,10 +20,10 @@ export default {
     facebook: 'karnsometimes',
     twitter: 'klaudioz',
     instagram: 'klaud10z',
-    codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
+    codestats: 'klaudioz' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
-    enabled: false,
+    enabled: true,
     url: 'https://www.buymeacoffee.com/klaudioz'
   },
   projects: {
@@ -42,8 +42,8 @@ export default {
       {title: 'OS', value: 'macOS Catalina'},
       {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
       {title: 'Keyboard', value: 'Keychron K2 - Gateron Brown Keys'},
-      {title: 'Mouse', value: 'Logitech Silent Pebble'},
-      {title: 'Monitor', value: 'LG QHD (2560 x 1440) 27 Inch IPS Display'},
+      {title: 'Mouse', value: 'Apple Magic Mouse 2'},
+      {title: 'Monitor', value: "Samsung 49'' CHG90 QLED Curved"},
       {title: 'Laptop • Processor • Graphics', value: 'MacBook Pro (16-inch, 2019) • 2.6 GHz 6-Core Intel Core i7 • AMD Radeon Pro 5300M 4 GB + Intel UHD Graphics 630 1536 MB'}
     ]
   },
@@ -51,10 +51,9 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
-      { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
-      { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
-      { name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
-      { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
+      { name: 'Progrexion', src: '/images/Progrexion.png', url: 'https://www.progrexion.com' },
+      { name: 'Kasten', src: '/images/Kasten.png', url: 'https://www.kasten.io' },
+      { name: 'Seegrid', src: '/images/Seegrid.png', url: 'https://seegrid.com' },
     ]
   },
   loadingIndicator: {
@@ -80,17 +79,17 @@ export default {
         blog: 'blog',
         projects: 'projects',
         uses: 'uses',
-        resume: 'résumé',
+        resume: 'resumé',
         buyMeACoffee: 'buy me a beer',
         signIn: 'sign in',
         signOut: 'sign out'
       },
       hero: {
-        iBlogTech: 'i blog tech',
+        iBlogTech: 'Tech blog',
         haveALook: 'have a look',
-        friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        friendlyNeighborhood: 'your friendly',
+        description: "I am a passionate technologist and engineer with ten years of experience working for important IT companies. Learning is the leitmotiv of my life, and I possess multiple certifications in the field and a master's degree in CS.",
+        words: ['DevOps', 'engineer', 'technologist', 'Linux master', 'Kubernetes guru'],
       },
       githubCalendar: {
         header: 'contributions',
@@ -106,7 +105,7 @@ export default {
       },
       uses: {
         header: 'uses',
-        subtext: 'a quick summary of what I use on a daily basis to code and some codestats.net flex'
+        subtext: 'Some codestats.net stats about my coding'
       },
       projects: {
         header: 'projects',
