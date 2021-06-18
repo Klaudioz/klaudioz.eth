@@ -1,16 +1,15 @@
 ---
-id: 3
+id: 4
 title: My chia farming rig
-date: 2021-05-13 10:26:03
+createdAt: "2021-05-13 5:00:00"
 tags:
   - Chia
   - Cryptocurrency
   - Hardware
 category: Cryptocurrency
 author:
-  name: klaudioz
+  name: Klaudioz
   twitter: klaudioz
-  image: /images/bigheadkarngyan.png
 ---
 
 This is a short but very interesting project. I’ve worked intensively for 3 weeks on it and it’s giving me a side income very fast, due to the value of the coin is about $1.000 right now even when it was listed for the first time on an exchange just a few days ago. It’s a very new coin and it looks promising. Maybe something like BTC 7-8 years ago.
