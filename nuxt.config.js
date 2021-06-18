@@ -22,7 +22,7 @@ const createSitemapRoutes = async () => {
 
 
 const nuxtConfig = {
-
+  
   publicRuntimeConfig: config,
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -36,6 +36,9 @@ const nuxtConfig = {
     title: `home -- ${config.name}`,
     htmlAttrs: {
       lang: 'en'
+    },
+    plausible: {
+      domain: 'klaudioz.eth'
     },
     meta: [
       { charset: 'utf-8' },
@@ -99,7 +102,8 @@ const nuxtConfig = {
     'nuxt-i18n',
     '@nuxtjs/pwa',
     '@nuxtjs/toast',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    'vue-plausible'
   ],
 
   pwa: {
