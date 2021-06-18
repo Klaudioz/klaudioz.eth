@@ -24,7 +24,7 @@
                 </p>
                 <p v-if="$config.workedAt.enabled" class="mt-8 text-sm text-white lowercase tracking-wide font-semibold sm:mt-10">Worked at</p>
                 <div v-if="$config.workedAt.enabled" class="mt-5 w-full sm:mx-auto lg:ml-0">
-                  <div class="flex flex-wrap space-x-1 items-start items-center space-x-10">
+                  <div class="flex flex-wrap space-x-1 items-start items-center space-x-4 md:space-x-10">
                     <div v-for="(firm, index) in $config.workedAt.meta" :key="index">
                       <a :href="firm.url" target="_blank" rel="noreferrer" class="flex items-center justify-center">
                         <img :src="firm.src" class="h-8 rounded-sm sm:h-9" :alt="firm.name"/>
@@ -50,42 +50,10 @@
 export default {
   data() {
     return {
-      email: '',
-      firstName: '',
-      lastName: '',
-      isLoading: false
+
     }
   },
   methods: {
-    subscribeUser() {
-      this.isLoading = true;
-      const data = {
-        'email': this.email.trim(),
-        'first_name': this.firstName.trim(),
-        'last_name': this.lastName.trim()
-      }
-      console.debug(data);
-      if (this.email.trim() === '') {
-        this.$toast.show('please enter your email address', { duration: 2000, theme: 'bubble'});
-        this.isLoading = false;
-        return
-      }
-      fetch('https://bfi6exs27j.execute-api.ap-south-1.amazonaws.com/v1/subscribers', {
-        method: 'post',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data)
-      }).then((res) => res.json())
-      .then(data => {
-        console.debug(data);
-        this.$toast.success(data.body.message, { duration: 3000 })
-        this.isLoading = false;
-        this.email = '';
-        this.firstName = '';
-        this.lastName = '';
-      })
-    },
   }
 }
 </script>

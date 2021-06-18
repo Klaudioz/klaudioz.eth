@@ -1,18 +1,18 @@
-<!-- PROJECT SHIELDS -->
-[![Netlify Status](https://api.netlify.com/api/v1/badges/88476203-8c04-4a61-9be3-cdc713690283/deploy-status)](https://template.karngyan.com)
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://template.karngyan.com">
     <img src="static/favicon.ico" alt="Logo" width="80" height="80">
   </a>
+  <br/><br/>
+  <a href="https://template.karngyan.com">
+    <img src="https://api.netlify.com/api/v1/badges/88476203-8c04-4a61-9be3-cdc713690283/deploy-status" alt="Netlify Status">
+  </a>
 
   <h3 align="center">template.karngyan.com</h3>
 
   <p align="center">
-    Dark themed, SEO friendly: Nuxt Content + TailwindCSS + Firebase + i18n based SPA for developers to quickly spin up their own kickass blog and showcase their projects.
+    Dark themed, SEO friendly: Nuxt Content + TailwindCSS + Firebase + i18n based SPA for <strong>procrastinating</strong> developers to quickly spin up their own kickass blog and showcase their projects.
   </p>
 </p>
 
@@ -28,6 +28,7 @@ Visit: [template.karngyan.com](https://template.karngyan.com) to see all feature
     <li><a href="#instructions-to-make-it-your-own">Instructions to make it your own</a></li>
     <li><a href="#other-deployment-options">Other Deployment Options</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#awesome-forks">Awesome Forks</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -39,7 +40,13 @@ Visit: [template.karngyan.com](https://template.karngyan.com) to see all feature
 ### Recommended [more like easiest and quickest way]
 
 1. Fork the project.
-2. Clone your copy.
+2. Clone your copy and create your own branch out of it.
+```bash
+# clone just one branch, there's a lot of sh*t on others :P 
+# replace <username> with your username
+git clone -b template --single-branch git@github.com:<username>/karngyan.com.git
+git checkout -b website
+```
 3. Choose your favorite editor and open the project.
 4. Local development setup:
 ```bash
@@ -112,6 +119,13 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
+## Awesome Forks ![Awesome][awesome-badge]
+
+Raise a PR when your website's up to add you here.
+
+* [Nenad Radovanovic](https://github.com/nesaplay) - [nenad.xyz](https://nenad.xyz)
+* [Anamika Pandey](https://github.com/anamikapandey745) - [anamika.dev](https://anamika.dev)
+* [Gyan Prakash Karn](https://github.com/gyankarn) - [karngyan.com](https://karngyan.com)
 
 <!-- LICENSE -->
 ## License
@@ -132,5 +146,6 @@ Karn - [@gyankarn](https://twitter.com/gyankarn) - mail@karngyan.com
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/karngyan
 [product-screenshot]: assets/template.karngyan.com.png
+[awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

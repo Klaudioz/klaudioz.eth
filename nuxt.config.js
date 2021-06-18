@@ -37,9 +37,6 @@ const nuxtConfig = {
     htmlAttrs: {
       lang: 'en'
     },
-    plausible: {
-      domain: 'klaudioz.eth'
-    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -122,7 +119,7 @@ const nuxtConfig = {
   },
 
   router: {
-    middleware: 'auth'
+    middleware: []
   },
 
   i18n: {
@@ -192,6 +189,7 @@ const nuxtConfig = {
 
 if (config.firebase.enabled) {
   nuxtConfig.modules.unshift('@nuxtjs/firebase')
+  nuxtConfig.router.middleware.push('auth')
   nuxtConfig.firebase = {
     config: {
       apiKey: process.env.API_KEY,
@@ -223,4 +221,12 @@ if (config.googleAnalyticsV4.enabled) {
   }
 }
 
-export default nuxtConfig;
+if (config.plausibleAnalytics.enabled) {
+  nuxtConfig.modules.unshift('vue-plausible')
+  nuxtConfig.plausible = {
+    ...config.plausibleAnalytics
+  }
+  nuxtConfig.router.middleware.push('analytics')
+}
+
+export default nuxtConfig
