@@ -24,6 +24,10 @@ export default {
     enabled: true,
     url: 'https://www.buymeacoffee.com/klaudioz'
   },
+  changelog: {
+    enabled: true,
+    url: 'https://www.polywork.com/klaudioz'
+  },
   projects: {
     enabled: true,
   },
@@ -73,14 +77,13 @@ export default {
     en_US: {
       download: 'download',
       nav: {
-        home: 'home',
-        blog: 'blog',
-        projects: 'projects',
-        uses: 'uses',
-        resume: 'resumé',
-        buyMeACoffee: 'buy me a beer',
-        signIn: 'sign in',
-        signOut: 'sign out'
+        home: 'Home',
+        blog: 'Blog',
+        projects: 'Projects',
+        uses: 'Uses',
+        resume: 'Resumé',
+        buyMeACoffee: 'Buy me a ☕️',
+	changelog: 'Changelog'
       },
       hero: {
         iBlogTech: 'Tech blog',
@@ -95,11 +98,11 @@ export default {
       },
       blog: {
         header: 'blog',
-        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail@karngyan.com'
+        subtext: 'Let me know your thoughts in comments or klaudioz@gmail.com'
       },
       recentBlog: {
         header: 'recent blogs',
-        subtext: 'it takes a lot of time to write man'
+        subtext: 'Trying to write more ..'
       },
       uses: {
         header: 'uses',

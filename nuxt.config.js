@@ -219,4 +219,4 @@ if (config.googleAnalyticsV4.enabled) {
   }
 }
 
-export default nuxtConfig
+export default nuxtConfig;
