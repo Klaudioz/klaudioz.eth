@@ -77,7 +77,8 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_KLAUDIOZ.pdf' // add files in static folder
+    pdfUrl: '/ccanales-resume.pdf', // add files in static folder
+    docxUrl: '/ccanales-resume.docx'
   },
   uses: {
     enabled: true,
@@ -132,7 +133,7 @@ export default {
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly',
         description: "I am a passionate technologist and engineer with ten years of experience working for important IT companies. Learning is the leitmotiv of my life, and I possess multiple certifications in the field and a master's degree in CS.",
-        words: ['DevOps', 'engineer', 'technologist', 'Linux master', 'Kubernetes guru'],
+        words: ['DevOps', 'engineer', 'technologist', 'Linux master', 'Kubernetes gurú'],
       },
       githubCalendar: {
         header: 'Contributions',
