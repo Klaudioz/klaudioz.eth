@@ -9,12 +9,12 @@ github: https://github.com/InterviewReady
 twitter: klaudioz
 ---
 
-This is my first experience as a solopreneur. I've worked very hard in this project about 3 months.
+Venausa.net is my first experience as a solopreneur. I've worked very hard on this project for about three months, and I'll keeping this platform for years because it's a long-term project. This project is based on my experience of moving to the US and multiplied my salary in one year, changing my life quality by a 100%.
 
-I've to do everything by my own including:
+I've to do everything on my own, including:
 
 - Record the videos.
-- Managing social network content: Twitter, Facebook and my bet niche, LinkedIn.
+- Managing social network content: Twitter, Facebook, and my bet niche, LinkedIn.
 - Do webinars.
 - Managing a created community in circle.so.
 - Set analytics with Plausible
@@ -26,4 +26,4 @@ I got some help on:
 - Video edition (My wife)
 - Graphics creation (Help by [grezan](www.grezan.cl))
 
-I'm very happy with the result, but I'm still waiting to get more students. One of my students is starting the process to go to the US to study a master, so his success can help to leverage the project soon.
+I'm delighted with the results of this project, but I'm still waiting to get more students. One of my students is starting to go to the US to study for a master's, so his success can help leverage the project soon.
