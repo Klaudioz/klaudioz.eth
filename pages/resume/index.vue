@@ -29,7 +29,7 @@
       </div>
       <div class="px-4 py-5 sm:p-6 flex items-center justify-center">
         <div class="w-full dark:text-gray-500 text-gray-800 font-bold">
-          <PdfViewer class="shadow-md" :src="$config.resume.pdfUrl"/>
+          <PdfViewer class="shadow-md" :src="$config.resume.pdfdarkUrl"/>
         </div>
       </div>
     </div>

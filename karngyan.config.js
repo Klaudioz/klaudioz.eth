@@ -77,7 +77,8 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/ccanales-resume.pdf', // add files in static folder
+    pdfUrl: '/ccanales-resume.pdf',
+    pdfdarkUrl: '/ccanales-resume-dark.pdf', // add files in static folder
     docxUrl: '/ccanales-resume.docx'
   },
   uses: {
