@@ -1,5 +1,5 @@
 ---
-id: 1
+id: 3
 title: Rubik cube solver with Lego and cellphone (2009)
 description: Qtek 9100 with WM5 solves cube through Lego Mindstorms Robot with Bluetooth messages. Used VB.NET, Kociemba Algorithm in C, pocket NXT remote and design from Tiltedtwister.
 tech: C++ Bluetooth Robotics
