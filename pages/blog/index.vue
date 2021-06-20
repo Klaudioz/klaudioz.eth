@@ -46,7 +46,7 @@ export default {
   },
   head() {
     return {
-      title: `blog -- ${this.$config.name}`
+      title: `Blog - ${this.$config.name}`
     }
   },
   async asyncData({ $content }) {

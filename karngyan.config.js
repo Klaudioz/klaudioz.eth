@@ -33,10 +33,44 @@ export default {
   },
   changelog: {
     enabled: true,
-    url: 'https://www.polywork.com/klaudioz'
+    url: 'https://updates.claud.dev/'
   },
   projects: {
     enabled: true,
+  },
+  stack: {
+    enabled: true,
+    meta: [
+      {title: 'OS', value: 'macOS Catalina'},
+      {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
+      {title: 'Keyboard', value: 'Keychron K2 - Gateron Brown Keys'},
+      {title: 'Mouse', value: 'Apple Magic Mouse 2'},
+      {title: 'Monitor', value: "Samsung 49'' CHG90 QLED Curved"},
+      {title: 'Laptop • Processor • Graphics', value: 'MacBook Pro (16-inch, 2019) • 2.6 GHz 6-Core Intel Core i7'},
+      {title: 'Cell phone', value: "iPhone SE 128GB"},
+      {title: 'Headphones', value: "Sony WH-XB900N"},
+      {title: 'Chair', value: "Office Star ProGrid"},
+      {title: '', value: ''},
+      {title: 'IDE', value: 'VSCode'},
+      {title: 'Ethereum development', value: 'NodeJS • Yarn •  Hardhat • Solidity • The Graph'},
+      {title: 'Communication', value: 'Slack • Spark • Discord • Telegram • Zoom • Gmail • Circle.so'},
+      {title: 'Web browser', value: 'Google Chrome'},
+      {title: 'Browser extensions', value: 'Workona • Dark Reader • Grammarly • Metamask'},
+      {title: 'Terminal tools', value: 'git • kubectl • ohmyzsh'},
+      {title: 'Knowledge management', value: 'Obsidian • Readwise • Notion • 1Writer'},
+      {title: 'Bookmark manager', value: 'Raindrop.io'},
+      {title: 'Time administration', value: 'Todoist • Things3 • RescueTime'},
+      {title: 'Automation', value: 'Bash • Python • Zapier • IFTTT • Shortcuts • Scriptable'},
+      {title: 'Kubernetes administration', value: 'Lens'},
+      {title: 'Social networking', value: 'LinkedIn • Twitter • Polywork'},
+      {title: 'Password management', value: '1Password'},
+      {title: 'Learning', value: 'Anki • Twitter • Udemy • Udacity • Coursera • Youtube • Apple Books'},
+      {title: 'Hosting', value: 'Firebase • GitHub Pages • Fleek.co • Gumroad'},
+      {title: 'Website analytics', value: 'Plausible.io'},
+      {title: 'Website monitoring', value: 'Freshping • Pagecrawl'},
+      {title: 'Blogging', value: 'Hugo • Hexo • NuxtJS'},
+      {title: 'Domain management', value: 'Google Domains • app.ens.domains'}
+    ]
   },
   blog: {
     enabled: true,
@@ -90,7 +124,8 @@ export default {
         uses: 'Uses',
         resume: 'Resumé',
         buyMeACoffee: 'Buy me a ☕️',
-	changelog: 'Changelog'
+	      changelog: 'Changelog',
+        stack: 'Stack',
       },
       hero: {
         iBlogTech: 'Tech blog',
@@ -100,24 +135,28 @@ export default {
         words: ['DevOps', 'engineer', 'technologist', 'Linux master', 'Kubernetes guru'],
       },
       githubCalendar: {
-        header: 'contributions',
-        subtext: 'github calendar heatmap'
+        header: 'Contributions',
+        subtext: 'Github calendar heatmap'
       },
       blog: {
-        header: 'blog',
+        header: 'Blog',
         subtext: 'Let me know your thoughts in comments or klaudioz@gmail.com'
       },
       recentBlog: {
-        header: 'recent blogs',
+        header: 'Recent blog entries',
         subtext: 'Trying to write more ..'
       },
       uses: {
-        header: 'uses',
+        header: 'Uses',
         subtext: 'Some codestats.net stats about my coding'
       },
       projects: {
-        header: 'projects',
+        header: 'Projects',
         subtext: 'this page lists some of my personal and work projects. every project has some story, click on the title to read'
+      },
+      stack: {
+        header: 'Stack',
+        subtext: "Hardware and software stack I'm using"
       }
     }
   }

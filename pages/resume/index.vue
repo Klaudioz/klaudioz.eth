@@ -27,7 +27,7 @@
 export default {
   head() {
     return {
-      title: `resume -- ${this.$config.name}`
+      title: `Resume - ${this.$config.name}`
     }
   },
 }

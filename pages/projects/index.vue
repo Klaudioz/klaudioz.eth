@@ -18,7 +18,7 @@
 export default {
   head() {
     return {
-      title: `projects -- ${this.$config.name}`
+      title: `Projects - ${this.$config.name}`
     }
   },
   async asyncData({ $content }) {
