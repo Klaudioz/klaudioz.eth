@@ -98,7 +98,8 @@ export default {
     meta: [
       { name: 'Progrexion', src: '/images/Progrexion.png', url: 'https://www.progrexion.com' },
       { name: 'Kasten', src: '/images/Kasten.png', url: 'https://www.kasten.io' },
-      { name: 'Seegrid', src: '/images/Seegrid.png', url: 'https://seegrid.com' },
+      { name: 'Seegrid', src: '/images/Seegrid.png', url: 'https://www.seegrid.com' },
+      { name: 'Venausa', src: '/images/Venausa_banner.png', url: 'https://www.venausa.net' },
     ]
   },
   loadingIndicator: {
