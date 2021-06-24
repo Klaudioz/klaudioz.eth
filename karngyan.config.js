@@ -33,7 +33,7 @@ export default {
   },
   changelog: {
     enabled: true,
-    url: 'https://updates.claud.dev/'
+    url: 'https://www.polywork.com/klaudioz'
   },
   projects: {
     enabled: true,
