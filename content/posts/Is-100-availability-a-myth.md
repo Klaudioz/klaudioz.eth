@@ -4,7 +4,7 @@ title: Is 100% availability a myth?
 createdAt: "2020-08-31 14:44:10"
 tags:
   - HA
-category: Hihglights
+category: Highlights
 author:
   name: Klaudioz
   twitter: klaudioz
