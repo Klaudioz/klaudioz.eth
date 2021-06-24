@@ -3,7 +3,7 @@
 export default {
   name: 'Claudio Canales',
   domain: 'klaudioz.eth', // add without https:// , used in meta tags and share urls
-  image: '/images/bigheadkarngyan.png',
+  image: '/images/klaudioz.png',
   email: 'klaudioz@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
@@ -143,7 +143,7 @@ export default {
       },
       blog: {
         header: 'Blog',
-        subtext: 'Let me know your thoughts in comments or klaudioz@gmail.com'
+        subtext: 'Let me know your thoughts in comments or klaudioz@gmail.com.'
       },
       recentBlog: {
         header: 'Recent blog entries',
@@ -151,15 +151,15 @@ export default {
       },
       uses: {
         header: 'Uses',
-        subtext: 'Some codestats.net stats about my coding'
+        subtext: 'Some codestats.net stats about my coding.'
       },
       projects: {
         header: 'Projects',
-        subtext: 'this page lists some of my personal and work projects. every project has some story, click on the title to read'
+        subtext: 'Listing some of my personal and work projects.'
       },
       stack: {
         header: 'Stack',
-        subtext: "Hardware and software stack I'm using"
+        subtext: "Hardware and software stack I'm using."
       }
     }
   }

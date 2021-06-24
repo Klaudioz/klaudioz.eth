@@ -8,7 +8,7 @@ category: Hihglights
 author:
   name: Klaudioz
   twitter: klaudioz
-  image: /images/bigheadkarngyan.png
+  image: /images/klaudioz.png
 ---
 
 Quick answer: **Yes**, high availability is not about being a hundred percent available. It's about being close to that. Actually, the word is **high** availability. It's not total availability or full availability.

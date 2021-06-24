@@ -10,7 +10,7 @@ category: Conferences
 author:
   name: Klaudioz
   twitter: klaudioz
-  image: /images/bigheadkarngyan.png
+  image: /images/klaudioz.png
 ---
 
 Today, Kubecon EU 2020 has started as an online event because of the pandemic so I’m starting a series of posts summarizing the most important topics covered. Hopefully, you found this helpful.

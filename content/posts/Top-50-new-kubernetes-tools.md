@@ -9,7 +9,7 @@ category: List
 author:
   name: Klaudioz
   twitter: klaudioz
-  image: /images/bigheadkarngyan.png
+  image: /images/klaudioz.png
 ---
 
 In this post I filtered out a big collection about new useful tools to work with Kubernetes. I used the following criteria to select them:
