@@ -69,7 +69,8 @@ export default {
       {title: 'Website analytics', value: 'Plausible.io'},
       {title: 'Website monitoring', value: 'Freshping • Pagecrawl'},
       {title: 'Blogging', value: 'Hugo • Hexo • NuxtJS'},
-      {title: 'Domain management', value: 'Google Domains • app.ens.domains'}
+      {title: 'Domain management', value: 'Google Domains • app.ens.domains'},
+      {title: 'Chilling', value: 'Netflix • Spotify • Crunchyroll • PPPoker'},
     ]
   },
   blog: {
@@ -151,7 +152,7 @@ export default {
       },
       uses: {
         header: 'Uses',
-        subtext: 'Some codestats.net stats about my coding.'
+        subtext: 'Some stats about my coding from codestats.net.'
       },
       projects: {
         header: 'Projects',
