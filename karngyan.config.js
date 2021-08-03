@@ -31,6 +31,10 @@ export default {
     enabled: true,
     url: 'https://www.buymeacoffee.com/klaudioz'
   },
+  books: {
+    enabled: true,
+    url: 'https://klaud10z.notion.site/Readwise-d45fc40a6a7f4bb7bf7197d028066fd5'
+  },
   changelog: {
     enabled: true,
     url: 'https://www.polywork.com/klaudioz'
@@ -131,6 +135,7 @@ export default {
         buyMeACoffee: 'Buy me a ☕️',
 	      changelog: 'Changelog',
         stack: 'Stack',
+        books: 'Books'
       },
       hero: {
         iBlogTech: 'Tech blog',
