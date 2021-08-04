@@ -27,10 +27,6 @@ export default {
     twitter: 'klaudioz',
     codestats: 'klaudioz' // https://codestats.net make a profile if you dont already have one.
   },
-  buyMeACoffee: {
-    enabled: true,
-    url: 'https://www.buymeacoffee.com/klaudioz'
-  },
   books: {
     enabled: true,
     url: 'https://klaud10z.notion.site/Readwise-d45fc40a6a7f4bb7bf7197d028066fd5'
@@ -132,7 +128,6 @@ export default {
         projects: 'Projects',
         uses: 'Uses',
         resume: 'Resumé',
-        buyMeACoffee: 'Buy me a ☕️',
 	      changelog: 'Changelog',
         stack: 'Stack',
         books: 'Books'
