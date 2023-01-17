@@ -13,7 +13,7 @@ Venausa.net is my first experience as a solopreneur. I've worked very hard on th
 
 I've to do everything on my own, including:
 
-- Record the videos.
+- Record all the videos.
 - Managing social network content: Twitter, Facebook, and my best niche, LinkedIn.
 - Do webinars.
 - Managing a created community in circle.so.
