@@ -17,7 +17,7 @@ I've to do everything on my own, including:
 - Managing social network content: Twitter, Facebook, and my best niche, LinkedIn.
 - Do webinars.
 - Managing a created community in circle.so.
-- Set analytics with Plausible
+- Set analytics with Plausible.
 - Set the website using Hugo hosted with Firebase.
 - Set Gumroad with Paypal for payment management.
 - Paperwork to create a company.
