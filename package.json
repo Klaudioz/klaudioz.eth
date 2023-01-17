@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "react-scripts --openssl-legacy-provider build",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
