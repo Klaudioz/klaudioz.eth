@@ -9,6 +9,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate -m"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/axios": "^5.13.1",
