@@ -164,6 +164,10 @@ const nuxtConfig = {
     jit: true
   },
 
+  generate: {
+    dir: 'public'
+  },
+
   loadingIndicator: {
     name: config.loadingIndicator.name || 'chasing-dots',
     color: '#fd2d78',
